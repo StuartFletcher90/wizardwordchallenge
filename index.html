@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link href="https://fonts.googleapis.com/css?family=Raleway|Satisfy&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./style.css">
+      <title>Hogwarts Sorting</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="container">
+          <h2 id="welcome">Welcome student, lets begin!</h2>
+          <p id="para" class="text-style">Type the Wizarding word within the time limit</p>
+          <span class="text-style" id="time">0</span>
+          <h2 id="current-word"></h2>
+          <input type="text" placeholder="Revelio..." id="word-input" class="input-style">
+          <h4 id="message" class="text-style"></h4>
+          
+          <h3 class="text-style">Score:
+              <span id="score" class="text-style">0</span>
+            </h3>
+  
+  
+          <button id="easybtn" class="text-style button-style">Easy</button>
+          <button id="mediumbtn" class="text-style button-style">Medium</button>
+          <button id="hardbtn" class="text-style button-style">Hard</button>
+        </div>
+      <div class="container">
+        <button id="reset" class="text-style button-style">Reset</button>
+      </div>
+    </div>
+      <script src="./app.js"></script>
+</html>
